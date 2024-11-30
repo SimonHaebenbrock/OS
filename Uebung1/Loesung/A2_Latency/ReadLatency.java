@@ -19,6 +19,7 @@ public class ReadLatency {
     public static void measureLatency(String filePath) {
         byte[] buffer = new byte[1024]; // Puffergröße
 
+        // 3 Durchläufe
         for (int run = 1; run <= 3; run++) {
             try (FileInputStream fis = new FileInputStream(filePath)) {
                 // Startzeit erfassen
