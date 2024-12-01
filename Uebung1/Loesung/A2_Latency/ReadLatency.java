@@ -44,7 +44,7 @@ public class ReadLatency {
 
     public static void main(String[] args) {
         // Pfad zur Testdatei
-        String smallFilePath = "Uebung1/Loesung/A1_Latency/testfile.txt"; //Textdatei
+        String smallFilePath = "Uebung1/Loesung/A2_Latency/testfile.txt"; //Textdatei
 
         // Messung der Latenz für die kleine Datei
         System.out.println("Messung der Latenz für die kleine Datei (" + smallFilePath + "):");
