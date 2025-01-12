@@ -1,0 +1,9 @@
+FROM python:3.13-slim
+
+WORKDIR /app
+
+COPY client.py .
+
+RUN pip install pyzmq numpy
+
+CMD ["python", "client.py"]
